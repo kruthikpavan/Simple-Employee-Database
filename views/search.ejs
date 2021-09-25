@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<style>
+    .container{
+        display:flex;
+        justify-content:center;
+    }
+h3{
+
+    position:relative;
+    right: 4rem;
+    top: 1rem;
+}
+table{
+    position: relative;
+    top: 1rem;
+}
+
+    
+</style>
+<body>
+    <h1 class="text-center mt-3">Search Employee </h1>
+
+
+    <div class="container">
+
+
+        <form action="/results"  method="get" class="justify-content-center  d-flex flex-column align-items-center mt-5 w-50">
+            <input type="text" class="form-control w-100 m-2"  placeholder="Employee Name">
+           
+            <button class="ml-3 w-100 btn btn-success text-center">Search in Database</button>
+            <h3 class="ml-0 ">Search Results: </h3>
+            
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                
+            </tr>
+          
+    </table>
+    
+        
+        
+     
+    
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
